@@ -15,4 +15,3 @@ def encoding_columns(df, date=None, time=None, int=None, float=None, category=No
     df[category] = df[category].astype("category")
     
     return df
-        
